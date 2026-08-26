@@ -12,4 +12,4 @@
 
 ---
 
-[![Deploy static to Pages](https://github.com/teremuhamblin/DesignSign/actions/workflows/static.yml/badge.svg)](https://github.com/teremuhamblin/DesignSign/actions/workflows/static.yml)
+[![Deploy static content to Pages](https://github.com/teremuhamblin/DesignSign/actions/workflows/static.yml/badge.svg)](https://github.com/teremuhamblin/DesignSign/actions/workflows/static.yml)

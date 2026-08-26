@@ -1,0 +1,21 @@
+name: Lint & Validate
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Markdown Lint
+        uses: avto-dev/markdown-lint@v1
+        with:
+          config: ".markdownlint.json"
+
+      - name: YAML Lint
+        uses: ibiqlik/action-yamllint@v3

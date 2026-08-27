@@ -2,7 +2,7 @@
 # 🛡️ DesignSign
 - Badges GitHub Actions
 
-[![Lint](https://github.com/teremuhamblin/DesignSign/actions/workflows/lint.yml/badge.svg)](https://github.com/teremuhamblin/DesignSign/actions/workflows/lint.yml)
+[![Dependabot Updates](https://github.com/teremuhamblin/DesignSign/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/teremuhamblin/DesignSign/actions/workflows/dependabot/dependabot-updates)
 
 [![Security Scan](https://github.com/teremuhamblin/DesignSign/actions/workflows/security.yml/badge.svg)](https://github.com/teremuhamblin/DesignSign/actions/workflows/security.yml)
 

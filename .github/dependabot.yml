@@ -1,0 +1,73 @@
+version: 2
+
+updates:
+  # ─────────────────────────────────────────────
+  # GitHub Actions
+  # ─────────────────────────────────────────────
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 7
+    groups:
+      actions-all:
+        patterns:
+          - "*"
+
+  # ─────────────────────────────────────────────
+  # Docker (contrib/container)
+  # ─────────────────────────────────────────────
+  - package-ecosystem: "docker"
+    directory: "/contrib/container"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 7
+
+  # ─────────────────────────────────────────────
+  # Docker (.devcontainer)
+  # ─────────────────────────────────────────────
+  - package-ecosystem: "docker"
+    directory: "/.devcontainer"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 7
+
+  # ─────────────────────────────────────────────
+  # Python (pip)
+  # ─────────────────────────────────────────────
+  - package-ecosystem: "pip"
+    directories:
+      - "/docs"
+      - "/contrib/dev_reqs"
+      - "/contrib/container"
+      - "/src/backend"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+    cooldown:
+      default-days: 7
+    versioning-strategy: "increase"
+    assignees:
+      - "matmair"
+    groups:
+      python-all:
+        patterns:
+          - "*"
+
+  # ─────────────────────────────────────────────
+  # NodeJS (npm)
+  # ─────────────────────────────────────────────
+  - package-ecosystem: "npm"
+    directories:
+      - "/src/frontend"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 7
+    groups:
+      npm-all:
+        patterns:
+          - "*"

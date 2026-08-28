@@ -18,8 +18,10 @@ DesignSign/
 ├── Dockerfile
 │
 └── .github/
+    ├── dependavot.yml
     └── workflows/
         ├── build.yml
+        ├── package.yml
         ├── test.yml
         └── static.yml
 ```

@@ -10,6 +10,20 @@ DesignSign est un projet minimaliste conçu pour **démontrer l'utilisation de G
 
 Ce projet sert de base pour apprendre, montrer ou enseigner les workflows GitHub.
 
+### Structure
+```text
+DesignSign/
+│
+├── README.md
+├── Dockerfile
+│
+└── .github/
+    └── workflows/
+        ├── build.yml
+        ├── test.yml
+        └── static.yml
+```
+
 ### 📦 Package GitHub
 >Une image Docker est automatiquement publiée dans :
 ```text
@@ -17,9 +31,9 @@ Ce projet sert de base pour apprendre, montrer ou enseigner les workflows GitHub
 ```
 
 ### 📁 Workflows inclus
-- `build.yml` — Build technique
-- `test.yml` — Tests techniques
-- `static.yml` — Déploiement GitHub Pages
+- `build.yml` : Build technique
+- `test.yml` : Tests techniques
+- `static.yml` : Déploiement GitHub Pages
 
 ### 🪪 Licence
 Unlicense — libre, gratuit, open source.

@@ -24,7 +24,7 @@ DesignSign/
         ├── package.yml
         ├── test.yml
         └── static.yml
-└── logo/
+└── assets/
     ├── ascii
 ```
 

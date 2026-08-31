@@ -48,9 +48,4 @@ Unlicense — libre, gratuit, open source.
 
 ---
 
-[![Security Scan](https://github.com/teremuhamblin/DesignSign/actions/workflows/security.yml/badge.svg)](https://github.com/teremuhamblin/DesignSign/actions/workflows/security.yml)
-
-
----
-
 [![Deploy static content to Pages](https://github.com/teremuhamblin/DesignSign/actions/workflows/static.yml/badge.svg)](https://github.com/teremuhamblin/DesignSign/actions/workflows/static.yml)

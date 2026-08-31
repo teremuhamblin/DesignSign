@@ -24,6 +24,8 @@ DesignSign/
         ├── package.yml
         ├── test.yml
         └── static.yml
+└── logo/
+    ├── ascii
 ```
 
 ### 📦 Package GitHub

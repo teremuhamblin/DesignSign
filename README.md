@@ -45,7 +45,7 @@ DesignSign/
 > Une image Docker est automatiquement publiée dans :
 
 ```text
-**ghcr.io/<ton-user>/DesignSign:latest**
+**ghcr.io/teremuhamblin/DesignSign:latest**
 ```
 
 ### 📁 Workflows inclus

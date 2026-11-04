@@ -1,12 +1,15 @@
 ###### README.md >> markdown 
 # 🛡️ DesignSign
-- Mini projet de démonstration GitHub Actions
+- Projet de démonstration GitHub Actions
 
 DesignSign est un projet minimaliste conçu pour **démontrer l'utilisation de GitHub Actions** :
+
+```text
 - Build automatique
 - Tests techniques
 - Déploiement statique
 - Publication d’un package Docker dans GitHub Packages
+```
 
 Ce projet sert de base pour apprendre, montrer ou enseigner les workflows GitHub.
 
@@ -15,10 +18,16 @@ Ce projet sert de base pour apprendre, montrer ou enseigner les workflows GitHub
 DesignSign/
 │
 ├── README.md
+├── .gitignore 
+├── LICENSE 
 ├── Dockerfile
 │
 └── .github/
-    ├── dependavot.yml
+    ├── dependabot.yml
+    └── ISSUE_TEMPLATE/
+        ├── bug_report.yml
+        ├── .yml
+        ├── test.yml
     └── workflows/
         ├── build.yml
         ├── package.yml
@@ -26,6 +35,7 @@ DesignSign/
         └── static.yml
 └── assets/
     ├── ascii
+    └── logo.txt
 ```
 
 ### 📦 Package GitHub
@@ -38,6 +48,7 @@ DesignSign/
 - `build.yml` : Build technique
 - `test.yml` : Tests techniques
 - `static.yml` : Déploiement GitHub Pages
+- `package.yml` : Construit et publie l'image Docker
 
 ### 🪪 Licence
 Unlicense — libre, gratuit, open source.
